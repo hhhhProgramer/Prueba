@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "DVHXXomgaA8OIn3ObcmQNv0nevOU2cpJXRvHns5s9c2++Qd7QOZemGe9vzunaYj2D6Mt4jGolY2IKVs7L/oGrQ==",
+  "success": true,
+  "projectFilePath": "/home/hhhh/Documentos/Proyectos/prueba/Api/Api.csproj",
+  "expectedPackageFiles": [
+    "/home/hhhh/.nuget/packages/microsoft.extensions.apidescription.server/3.0.0/microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "/home/hhhh/.nuget/packages/microsoft.openapi/1.2.3/microsoft.openapi.1.2.3.nupkg.sha512",
+    "/home/hhhh/.nuget/packages/swashbuckle.aspnetcore/6.2.3/swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
+    "/home/hhhh/.nuget/packages/swashbuckle.aspnetcore.swagger/6.2.3/swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
+    "/home/hhhh/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.2.3/swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
+    "/home/hhhh/.nuget/packages/swashbuckle.aspnetcore.swaggerui/6.2.3/swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "/home/hhhh/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

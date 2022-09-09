@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "VuQXXTrAUWg1yOa4j56I/93gGaFagPwmuwHWnP/ZY34aqTBEyd+R+fSh1n2JX2itHQDANRqXvPeNTYdKG5/8wg==",
+  "success": true,
+  "projectFilePath": "/home/hhhh/Documentos/Proyectos/prueba/Infrestructure/Infrestructure.csproj",
+  "expectedPackageFiles": [
+    "/home/hhhh/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.8/microsoft.aspnetcore.app.ref.6.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
