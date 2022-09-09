@@ -4,14 +4,14 @@
     "/home/hhhh/Documentos/Proyectos/prueba/Infrestructure/Infrestructure.csproj": {}
   },
   "projects": {
-    "/home/hhhh/Documentos/Proyectos/prueba/Infrestructure/Infrestructure.csproj": {
+    "/home/hhhh/Documentos/Proyectos/prueba/Domain/Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/hhhh/Documentos/Proyectos/prueba/Infrestructure/Infrestructure.csproj",
-        "projectName": "Infrestructure",
-        "projectPath": "/home/hhhh/Documentos/Proyectos/prueba/Infrestructure/Infrestructure.csproj",
+        "projectUniqueName": "/home/hhhh/Documentos/Proyectos/prueba/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/home/hhhh/Documentos/Proyectos/prueba/Domain/Domain.csproj",
         "packagesPath": "/home/hhhh/.nuget/packages/",
-        "outputPath": "/home/hhhh/Documentos/Proyectos/prueba/Infrestructure/obj/",
+        "outputPath": "/home/hhhh/Documentos/Proyectos/prueba/Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/hhhh/.nuget/NuGet/NuGet.Config"
@@ -37,6 +37,81 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[6.0.8, 6.0.8]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.108/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/hhhh/Documentos/Proyectos/prueba/Infrestructure/Infrestructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/hhhh/Documentos/Proyectos/prueba/Infrestructure/Infrestructure.csproj",
+        "projectName": "Infrestructure",
+        "projectPath": "/home/hhhh/Documentos/Proyectos/prueba/Infrestructure/Infrestructure.csproj",
+        "packagesPath": "/home/hhhh/.nuget/packages/",
+        "outputPath": "/home/hhhh/Documentos/Proyectos/prueba/Infrestructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/hhhh/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/hhhh/Documentos/Proyectos/prueba/Domain/Domain.csproj": {
+                "projectPath": "/home/hhhh/Documentos/Proyectos/prueba/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
